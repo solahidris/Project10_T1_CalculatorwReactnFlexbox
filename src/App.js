@@ -1,13 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./components/header.js";
+import React from "react";
+import CalculatorButtons from "./components/buttons";
 
 function App() {
   return (
     <div className="bg-slate-600 h-screen">
-      <div className="bg-slate-500 p-10">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="text-3xl  underline">Hello world!</h1>
-      </div>
+      <Header />
+      <CalculatorButtons />
     </div>
   );
 }
