@@ -7,9 +7,6 @@ const CalculatorButtons = () => {
 
     return (
         <div>
-            <label>buttonlistener</label>
-            <button key={"C"} value={"C"} onClick={buttonClickHandler} className="py-2 w-10 flex justify-center bg-green-500">C</button>
-
         <div className="bg-green-400/50 grid grid-cols-4 gap-3">
         {/* <button key={1} value={1} onClick={buttonClickHandler} className="py-2 w-10 flex justify-center bg-green-500">1</button> */}
             <button key={1} value={1} onClick={buttonClickHandler} className="py-2 flex justify-center bg-green-500">1</button>
