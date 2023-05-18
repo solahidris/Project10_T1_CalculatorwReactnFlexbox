@@ -47,15 +47,18 @@ function App() {
       <Header />
 
       <div className="my-5 mx-5">
-        <div>
+        {/* actual display needed */}
+        <div> 
             <label className="flex justify-center p-2 mb-5 bg-black text-white">{displayValue}</label>
         </div>
-        
+
+        {/* under the hood - testing display (not needed) */}
         <label className="flex justify-center p-2 bg-blue-500 text-white">{firstValue}</label>
         <label className="flex justify-center p-2 bg-green-500 text-black">{secondValue}</label>
         <label className="flex justify-center p-2 bg-yellow-500 text-black">{totalValue}</label>
       </div>
-      
+
+        {/* buttons - all needed for grid later */}
       <div className="mx-5">
         <button value="1" onClick={buttonHandler} className="p-5 bg-white mr-2">1</button>
         <button value="2" onClick={buttonHandler} className="p-5 bg-white mr-2">2</button>
@@ -68,6 +71,7 @@ function App() {
         <button value="=" onClick={buttonHandler} className="p-5 bg-yellow-300 mr-2">=</button>
       </div>
 
+        {/* under the hood - value checker (not needed) */}
       <div className="flex justify-center mt-5">
         <label className="p-5 bg-blue-500 text-blue">1V) {firstValue}</label>
         <label className="p-5 bg-red-500 text-black">OV) {operatorValue}</label>
