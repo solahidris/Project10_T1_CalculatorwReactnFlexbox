@@ -66,55 +66,95 @@ const ButtonHandler = ({
 
   return (
     <>
+    <div className="flex justify-center min-w-max">
+    <div className="grid grid-cols-4 gap-3">
+
+
       {/* button components */}
-      <button value="1" onClick={buttonHandler} className="p-5 bg-white mr-2">
+      <div className="flex justify-center items-center">
+      <button value="1" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-gray-800/20 bg-gray-700 text-white font-mono rounded-full">
         1
       </button>
-      <button value="2" onClick={buttonHandler} className="p-5 bg-white mr-2">
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="2" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-gray-800/20 bg-gray-700 text-white font-mono rounded-full">
         2
       </button>
-      <button value="3" onClick={buttonHandler} className="p-5 bg-white mr-2">
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="3" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-gray-800/20 bg-gray-700 text-white font-mono rounded-full">
         3
       </button>
-      <button value="4" onClick={buttonHandler} className="p-5 bg-white mr-2">
-        4
-      </button>
-      <button value="5" onClick={buttonHandler} className="p-5 bg-white mr-2">
-        5
-      </button>
-      <button value="6" onClick={buttonHandler} className="p-5 bg-white mr-2">
-        6
-      </button>
-      <button value="7" onClick={buttonHandler} className="p-5 bg-white mr-2">
-        7
-      </button>
-      <button value="8" onClick={buttonHandler} className="p-5 bg-white mr-2">
-        8
-      </button>
-      <button value="9" onClick={buttonHandler} className="p-5 bg-white mr-2">
-        9
-      </button>
-      <button value="0" onClick={buttonHandler} className="p-5 bg-white mr-2">
-        0
-      </button>
-      <button value="+" onClick={buttonHandler} className="p-5 bg-yellow-300 mr-2">
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="+" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-orange-500/20 bg-orange-400 text-white font-mono rounded-full">
         +
       </button>
-      <button value="-" onClick={buttonHandler} className="p-5 bg-yellow-300 mr-2">
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="4" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-gray-800/20 bg-gray-700 text-white font-mono rounded-full">
+        4
+      </button>
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="5" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-gray-800/20 bg-gray-700 text-white font-mono rounded-full">
+        5
+      </button>
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="6" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-gray-800/20 bg-gray-700 text-white font-mono rounded-full">
+        6
+      </button>
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="-" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-orange-500/20 bg-orange-400 text-white font-mono rounded-full">
         -
       </button>
-      <button value="*" onClick={buttonHandler} className="p-5 bg-yellow-300 mr-2">
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="7" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-gray-800/20 bg-gray-700 text-white font-mono rounded-full">
+        7
+      </button>
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="8" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-gray-800/20 bg-gray-700 text-white font-mono rounded-full">
+        8
+      </button>
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="9" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-gray-800/20 bg-gray-700 text-white font-mono rounded-full">
+        9
+      </button>
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="*" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-orange-500/20 bg-orange-400 text-white font-mono rounded-full">
         *
       </button>
-      <button value="/" onClick={buttonHandler} className="p-5 bg-yellow-300 mr-2">
-        /
-      </button>
-      <button value="=" onClick={buttonHandler} className="p-5 bg-yellow-300 mr-2">
-        =
-      </button>
-      <button value="C" onClick={buttonHandler} className="p-5 bg-yellow-300 mr-2">
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="C" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-slate-500/20 bg-slate-400/90 text-black font-mono rounded-full">
         C
       </button>
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="0" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-gray-800/20 bg-gray-700 text-white font-mono rounded-full">
+        0
+      </button>
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="=" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-orange-500/20 bg-orange-400 text-white font-mono rounded-full">
+        =
+      </button>
+      </div>
+      <div className="flex justify-center items-center">
+      <button value="/" onClick={buttonHandler} className="box-border h-16 w-16 p-4 border-4 border-orange-500/20 bg-orange-400 text-white font-mono rounded-full">
+        /
+      </button>
+      </div>
+
+
+    </div>
+    </div>
     </>
   );
 };
